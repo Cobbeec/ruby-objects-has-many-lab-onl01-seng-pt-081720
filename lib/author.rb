@@ -23,5 +23,5 @@ def add_post_by_title (post_name)
   
 def self.post_count 
   Post.all.count 
-  
+end 
 end 
