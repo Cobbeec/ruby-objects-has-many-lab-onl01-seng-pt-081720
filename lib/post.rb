@@ -1,2 +1,2 @@
 class Post 
-  attr_accessor
+  attr_accessor :author 
