@@ -10,6 +10,11 @@ class Post
     @@all << self
   end
   
+  def initialize(title)
+    @title = title 
+  end 
+  
+  
   def self.all
     @@all
   end
