@@ -6,6 +6,6 @@ class Artist
   end
   
 def songs 
-Song.all.select {|s|}
+Song.all.select do {|s|}
 end 
   
