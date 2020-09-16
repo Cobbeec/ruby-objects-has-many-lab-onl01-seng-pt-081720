@@ -6,7 +6,7 @@ class Artist
   end
   
 def songs 
-Song.all.select do {|song|}
+Song.all.select do |song|
 song.artist == artist
 end 
   
