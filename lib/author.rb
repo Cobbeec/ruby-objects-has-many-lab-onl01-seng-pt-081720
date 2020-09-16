@@ -11,4 +11,7 @@ post.artist == self
 end 
 end 
   
+  
+  
+  
 end 
