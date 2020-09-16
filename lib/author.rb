@@ -24,4 +24,13 @@ def add_post_by_title (post_name)
 def self.post_count 
   Post.all.count 
 end 
+
+ def author_name
+    if self.author
+      self.author.name
+    else
+      nil
+    end
+  end
+
 end 
