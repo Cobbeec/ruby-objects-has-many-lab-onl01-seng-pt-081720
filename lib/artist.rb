@@ -6,6 +6,6 @@ class Artist
   end
   
 def songs 
-Songs.all
+Song.all 
 end 
   
